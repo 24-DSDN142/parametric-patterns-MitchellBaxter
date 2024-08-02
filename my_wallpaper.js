@@ -1,32 +1,19 @@
 //your parameter variables go here!
 
-
-//changes size of black eye
-let eye = 35;
-
-//Changes size of mouth and tounge
-let mouth = 35;
-
-//Changes size of whites
-let whites = 23;
-
+let eye = 35; //changes size of black eye
+let mouth = 35; //Changes size of mouth and tounge
+let whites = 23; //Changes size of whites
 //Changes colour of the head
 let r1 = 164
 let g1 = 82
 let b1 = 45
-
-//changes the lenght of the top hat
-let hat = 100
-
-
-
-//if statment
-let redbowtie =true
+let hat = 100 //changes the length of the top hat
+let redbowtie =true //if true bowtie is red if false bowtie is blue
 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
@@ -36,7 +23,7 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(100, 200, 252); //light honeydew green colour
+  background(100, 200, 252); 
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
